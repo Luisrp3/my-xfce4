@@ -1,0 +1,52 @@
+.xfce4-panel#XfcePanelWindow {
+  border-radius: 8px;
+}
+
+.xfce4-panel#XfcePanelWindowHidden {
+    background: rgba(0,0,0,0); 
+}
+
+.xfce4-panel .tasklist button{
+	margin: 3px;
+}
+
+.xfce4-panel .tasklist button:checked{
+    background-color: #2f312e;
+    border-radius: 8px; 
+}
+
+.xfce4-panel .tasklist button:hover{
+    border-radius: 8px; 
+
+}
+
+.xfce4-panel widget grid button{
+font-size: 20px;
+background-color: #242220;
+    border-radius: 8px; 
+margin-top:3px;
+margin-bottom:3px;
+}
+
+.xfce4-panel widget grid button.flat.toggle:hover { 
+    font-size: 28px;
+	background-color: #242220;
+}
+
+.xfce4-panel widget grid button.flat.toggle:checked { 
+    font-size: 28px;
+    padding: 5px;
+	color:white;
+}
+
+#whiskermenu-button, #xfce4-notification-plugin, #xfce4-power-manager-plugin, #pulseaudio-button, #clock-button  {
+background-color: #2f312e;
+  border-radius: 8px;
+margin-top:3px;
+margin-bottom:3px;
+}
+
+#whiskermenu-button, #clock-button {
+padding:5px;
+}
+

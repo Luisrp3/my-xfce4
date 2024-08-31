@@ -1,0 +1,39 @@
+Paquetes:
+
+sudo pacman -S xfce4 lightdm lightdm-webkit2-greeter nano mousepad git firefox
+sudo systemtcl enable lightdm.service
+sudo nano /etc/lightdm/lightdm.conf
+	greeter-session = lightdm-webkit2-greeter
+reboot
+
+sudo pacman -S ristretto vlc xarchiver firefox krita steam xfce4-pulseaudio-plugin pavucontrol network-manager-applet ffmpegthumbnailer freetype2 libgepub libgsf libopenraw poppler-glib imagemagick gtk-engine-murrine gvfs gvfs-gphoto2 thunar-archive-plugin thunar-media-tags-plugin xfce4-screenshooter xfce4-whiskermenu-plugin noto-fonts-cjk ttf-jetbrains-mono-nerd git flatpak ffmpeg webp-pixbuf-loader unzip
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+yay -S mugshot visual-studio-code-bin
+
+Shorcuts:
+
+Configurar para abrir navegador, file manager, terminal y appfinder
+Configurar foco con mouse y tiling manual
+Margins
+
+Icons and Themes:
+
+https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme.git
+https://github.com/SylEleuth/gruvbox-plus-icon-pack/releases/tag/v5.5.0
+
+Lightdm:
+
+https://github.com/eromatiya/lightdm-webkit2-theme-glorious
+https://github.com/NoiSek/Aether
+
+Thunar thumbnails:
+
+https://forum.manjaro.org/t/thunar-wont-display-thumbnails-of-audio-files/84234/3
+
+Pendientes:
+
+Zsh
+
+Betterfox
+
+  

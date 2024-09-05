@@ -10,6 +10,8 @@ sudo pacman -S ristretto vlc xarchiver firefox krita steam xfce4-pulseaudio-plug
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 yay -S mugshot visual-studio-code-bin
 
+Flatpak install vesktop
+
 Shorcuts:
 
 Configurar para abrir navegador, file manager, terminal y appfinder
